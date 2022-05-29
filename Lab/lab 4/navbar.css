@@ -1,0 +1,98 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body {
+    background-color: #f2f4f8;
+  }
+  /* ----------------------navigation---------------- */
+  nav {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    box-shadow: 0 1px 10px -1px rgb(0 0 0 / 20%);
+    height: 10%;
+    width: 100%;
+    background-color: #ffffff;
+  }
+  ul {
+    margin-top: -4.5rem;
+    margin-left: 3rem;
+  }
+  li {
+    position: relative;
+    list-style: none;
+    display: inline;
+    font-size: 1.1rem;
+    margin-right: 2rem;
+    color: #8c919c;
+    cursor: pointer;
+  }
+  li:first-child {
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 900;
+  }
+  /* ---------------logo------------- */
+  .logo {
+    width: 4rem;
+    height: 4.5rem;
+    margin-left: 1rem;
+  }
+  /* ---------------------search logo--------------- */
+  .search {
+    position: absolute;
+    right: 12rem;
+    top: 1.3rem;
+  }
+  .search-icon {
+    cursor: pointer;
+    position: absolute;
+    height: 2rem;
+    width: 1.5rem;
+    top: 0.2rem;
+    margin-left: 0.5rem;
+    filter: invert(55%) sepia(0%) saturate(0%) hue-rotate(219deg) brightness(99%)
+      contrast(89%);
+  }
+  /* ----------------------search-box-------------- */
+  .text {
+    padding: 0.7rem 8rem 0.7rem 3rem;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+  }
+  ::placeholder {
+    color: #a3a9b4;
+    font-weight: 700;
+  }
+  /* ---------------bellicon----------- */
+  .bell {
+    cursor: pointer;
+    position: absolute;
+    top: 1.5rem;
+    right: 8rem;
+  }
+  .bell-icon {
+    height: 1.8rem;
+    width: 2rem;
+    filter: invert(55%) sepia(0%) saturate(0%) hue-rotate(219deg) brightness(99%)
+      contrast(89%);
+  }
+  /* ----------------------image of man */
+  .man {
+    position: absolute;
+    top: 1.5rem;
+    right: 4rem;
+  }
+  .image {
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+  }
+  /* ---------------hover--------------- */
+  li:not(:first-child):hover {
+    color: #3f4551;
+    padding-bottom: 1.6rem;
+    border-bottom: 3px solid #6467f1;
+  }

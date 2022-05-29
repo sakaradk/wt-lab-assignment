@@ -1,0 +1,99 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /* ----------------------------navigation------------------- */
+  nav {
+    position: relative;
+  }
+  li {
+    list-style: none;
+    display: inline;
+    margin-right: 5.2rem;
+    font-size: 1.3rem;
+    color: #68707c;
+    font-weight: 600;
+  }
+  li:first-child {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin-right: 20rem;
+  }
+  .contact {
+    position: absolute;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #68707c;
+    padding: 5px;
+    color: #68707c;
+    height: 1.5rem;
+    width: 6rem;
+    top: 1rem;
+    bottom: 0;
+    right: 2rem;
+  }
+  /* ----------------------container section--------------- */
+  .container {
+    margin-left: 2.5rem;
+  }
+  .align {
+    position: relative;
+    margin-bottom: 2rem;
+  }
+  .left {
+    float: left;
+    width: 800px;
+  }
+  h1 {
+    font-size: 4.4rem;
+    margin-bottom: 2rem;
+  }
+  .tick {
+    width: 1.7rem;
+    height: 1.7rem;
+    filter: invert(44%) sepia(88%) saturate(2522%) hue-rotate(202deg)
+      brightness(98%) contrast(97%);
+  }
+  p {
+    font-size: 1.4rem;
+    margin-left: 1.5rem;
+    position: absolute;
+    display: inline;
+    color: #1f2937;
+    font-weight: 700;
+    margin-top: 0;
+  }
+  .image {
+    margin-top: 4rem;
+    margin-right: 2rem;
+    width: 50rem;
+    height: 30rem;
+    float: right;
+    border-radius: 0.5rem;
+  }
+  .email {
+    margin-top: 3rem;
+    margin-left: 1rem;
+  }
+  .text {
+    padding: 0.8rem 16rem 0.8rem 1rem;
+  }
+  ::placeholder {
+    font-size: 1.1rem;
+    color: #b5bbc4;
+    font-weight: 500;
+    padding-left: 0rem;
+    margin-right: -5rem;
+  }
+  .join {
+    position: absolute;
+    margin-left: -5rem;
+    margin-top: 0.3rem;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem 0.7rem;
+    background-color: #3b82f6;
+    color: #fff;
+    border-radius: 0.3rem;
+    cursor: pointer;
+  }
